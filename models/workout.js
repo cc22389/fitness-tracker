@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 console.log({ MONGODB_URI: process.env.MONGODB_URI });
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/fitness', {
+  process.env.MONGODB_URI || 'mongodb://localhost/workouts', {
   useNewUrlParser: true,
   useFindAndModify: false,
   useCreateIndex: true,
