@@ -9,6 +9,7 @@ mongoose.connect(
   useUnifiedTopology: true
 });
 
+
 const Schema = mongoose.Schema;
 
 const workoutSchema = new Schema(

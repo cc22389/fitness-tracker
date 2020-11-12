@@ -3,7 +3,7 @@ const logger = require("morgan");
 
 const PORT = process.env.PORT || 3000;
 
-// const User = require("./seeders/seed"); // Uncomment this to seed
+const User = require("./seeders/seed"); // Uncomment this to seed
 const db = require("./models");           // Comment this to seed
 
 const app = express();
