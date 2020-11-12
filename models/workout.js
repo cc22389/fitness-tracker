@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 mongoose.set('debug', true);
 
-mongoose.connect("mongodb://localhost/fitness-workout", {
+mongoose.connect("mongodb://localhost/fitness", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true
