@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-mongoose.set('debug', true);
 
 console.log({ MONGODB_URI });
 mongoose.connect(
