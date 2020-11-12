@@ -27,10 +27,7 @@ app.get("/exercise", (req, res) => {
 
 // Api
 app.get("/api/workouts/range", (req, res) => {
-  db.Workout.find().then(function (err, data) {
-    console.log(err, data);
-    res.json(data);
-  });
+  db.Workout.find().then(data => res.json(data));
 });
 
 app.get("/api/workouts", (req, res) => {
